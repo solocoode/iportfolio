@@ -19,5 +19,6 @@ from iportfolio import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='my-index')
+    path('', views.index, name='my-index'),
+    path('portfolio/', views.portfolio, name='my-portfolio')
 ]
